@@ -124,6 +124,8 @@ Each tool costs a few credits. Free accounts get **daily credits** (refreshed ev
 
 ## Links
 
+- Landing page: [gurupdf.com/mcp](https://gurupdf.com/mcp)
+- Guide: [Convert files in Claude & Cursor with the GuruPDF MCP](https://gurupdf.com/blog/file-conversion-mcp-for-claude-and-cursor)
 - Website: [gurupdf.com](https://gurupdf.com)
 - API docs: [gurupdf.com/api/docs](https://gurupdf.com/api/docs)
 - Pricing: [gurupdf.com/pricing](https://gurupdf.com/pricing)
