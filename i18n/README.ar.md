@@ -1,8 +1,7 @@
 # GuruPDF MCP — حوّل ملفات PDF وأكثر من 100 تنسيق ملفات من وكيل الذكاء الاصطناعي الخاص بك
 
 [![npm version](https://img.shields.io/npm/v/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![license: MIT](https://img.shields.io/npm/l/gurupdf-mcp.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/GuruPDF/gurupdf-mcp/blob/main/LICENSE)
 
 خادم **[Model Context Protocol](https://modelcontextprotocol.io) (MCP)** مجاني يتيح لـ Claude وCursor وVS Code وWindsurf وغيرهم من وكلاء الذكاء الاصطناعي **تحويل ملفات PDF وضغطها ودمجها وتقسيمها وتحريرها — وكذلك التحويل بين أكثر من 100 تنسيق ملفات** (Word وExcel وPowerPoint وJPG وPNG وHEIC والكتب الإلكترونية وغير ذلك)، مباشرة على جهازك. يعمل بواسطة [GuruPDF](https://gurupdf.com).
 

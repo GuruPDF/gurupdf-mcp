@@ -1,8 +1,7 @@
 # GuruPDF MCP — 通过你的 AI 代理转换 PDF 和 100+ 种文件格式
 
 [![npm version](https://img.shields.io/npm/v/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![license: MIT](https://img.shields.io/npm/l/gurupdf-mcp.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/GuruPDF/gurupdf-mcp/blob/main/LICENSE)
 
 一个免费的 **[Model Context Protocol](https://modelcontextprotocol.io) (MCP) 服务器**，让 Claude、Cursor、VS Code、Windsurf 和其他 AI 代理能够**转换、压缩、合并、拆分和编辑 PDF —— 以及在 100+ 种文件格式之间进行转换**（Word、Excel、PowerPoint、JPG、PNG、HEIC、电子书等），全部直接在你自己的机器上完成。由 [GuruPDF](https://gurupdf.com) 提供支持。
 

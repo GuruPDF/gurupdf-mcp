@@ -1,8 +1,7 @@
 # GuruPDF MCP — AI ajanınızdan PDF'leri ve 100+ dosya formatını dönüştürün
 
 [![npm version](https://img.shields.io/npm/v/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![license: MIT](https://img.shields.io/npm/l/gurupdf-mcp.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/GuruPDF/gurupdf-mcp/blob/main/LICENSE)
 
 Claude, Cursor, VS Code, Windsurf ve diğer AI ajanlarının **PDF'leri dönüştürmesini, sıkıştırmasını, birleştirmesini, bölmesini ve düzenlemesini — ayrıca 100+ dosya formatı arasında dönüştürme yapmasını** (Word, Excel, PowerPoint, JPG, PNG, HEIC, e-kitaplar ve daha fazlası) doğrudan kendi makinenizde sağlayan ücretsiz bir **[Model Context Protocol](https://modelcontextprotocol.io) (MCP) sunucusu**. Altyapısı [GuruPDF](https://gurupdf.com) tarafından sağlanır.
 

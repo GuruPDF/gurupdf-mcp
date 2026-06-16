@@ -1,8 +1,7 @@
 # GuruPDF MCP — konwertuj PDF i ponad 100 formatów plików ze swojego agenta AI
 
 [![npm version](https://img.shields.io/npm/v/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![license: MIT](https://img.shields.io/npm/l/gurupdf-mcp.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/GuruPDF/gurupdf-mcp/blob/main/LICENSE)
 
 Darmowy **serwer [Model Context Protocol](https://modelcontextprotocol.io) (MCP)**, który pozwala Claude, Cursor, VS Code, Windsurf i innym agentom AI **konwertować, kompresować, scalać, dzielić i edytować PDF — a także konwertować między ponad 100 formatami plików** (Word, Excel, PowerPoint, JPG, PNG, HEIC, ebooki i inne), bezpośrednio na Twoim własnym komputerze. Oparty na [GuruPDF](https://gurupdf.com).
 

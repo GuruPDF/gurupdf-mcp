@@ -1,8 +1,7 @@
 # GuruPDF MCP — převádějte PDF a více než 100 formátů souborů ze svého AI agenta
 
 [![npm version](https://img.shields.io/npm/v/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![license: MIT](https://img.shields.io/npm/l/gurupdf-mcp.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/GuruPDF/gurupdf-mcp/blob/main/LICENSE)
 
 Bezplatný **[Model Context Protocol](https://modelcontextprotocol.io) (MCP) server**, který umožňuje Claude, Cursor, VS Code, Windsurf a dalším AI agentům **převádět, komprimovat, slučovat, rozdělovat a upravovat PDF — a převádět mezi více než 100 formáty souborů** (Word, Excel, PowerPoint, JPG, PNG, HEIC, e-knihy a další), přímo na vašem počítači. Poháněno službou [GuruPDF](https://gurupdf.com).
 

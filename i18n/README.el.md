@@ -1,8 +1,7 @@
 # GuruPDF MCP — μετατρέψτε PDF και 100+ μορφές αρχείων από τον AI agent σας
 
 [![npm version](https://img.shields.io/npm/v/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
-[![license: MIT](https://img.shields.io/npm/l/gurupdf-mcp.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/GuruPDF/gurupdf-mcp/blob/main/LICENSE)
 
 Ένας δωρεάν **[Model Context Protocol](https://modelcontextprotocol.io) (MCP) server** που επιτρέπει στα Claude, Cursor, VS Code, Windsurf και άλλους AI agents να **μετατρέπουν, συμπιέζουν, συγχωνεύουν, διαχωρίζουν και επεξεργάζονται PDF — και να μετατρέπουν μεταξύ 100+ μορφών αρχείων** (Word, Excel, PowerPoint, JPG, PNG, HEIC, ebooks και άλλα), απευθείας στο δικό σας μηχάνημα. Με την υποστήριξη του [GuruPDF](https://gurupdf.com).
 
