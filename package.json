@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "Model Context Protocol server for GuruPDF — convert, compress, merge and edit PDFs and 100+ file formats from any AI agent (Claude, Cursor, VS Code, Windsurf).",
   "license": "MIT",
+  "mcpName": "io.github.GuruPDF/gurupdf-mcp",
   "type": "module",
   "bin": {
     "gurupdf-mcp": "dist/index.js"
