@@ -3,7 +3,7 @@
   "name": "io.github.GuruPDF/gurupdf-mcp",
   "title": "GuruPDF",
   "description": "Convert, compress & merge PDFs and 100+ file formats from any AI agent. By GuruPDF.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "url": "https://github.com/GuruPDF/gurupdf-mcp",
     "source": "github"
@@ -13,7 +13,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "gurupdf-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },

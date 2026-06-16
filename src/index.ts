@@ -58,7 +58,7 @@ async function pollUntilDone(uuid: string, timeoutMs = 5 * 60 * 1000): Promise<C
     return (await client!.getConversion(uuid)).data;
 }
 
-const server = new McpServer({ name: "gurupdf", version: "0.1.0" });
+const server = new McpServer({ name: "gurupdf", version: "0.1.2" });
 
 server.tool(
     "convert_file",
@@ -85,7 +85,18 @@ server.tool(
             const inputExt = urlMode ? "" : extname(inputs[0]).toLowerCase();
 
             const tools = await catalog();
-            const tool = resolveTool(tools, to, inputExt);
+            // URL inputs only work with URL tools (e.g. url-to-pdf). resolveTool keys off the
+            // input extension, which is empty for a URL, so route URL mode explicitly — otherwise
+            // it falls through to the shortest-slug file tool (merge-pdf, …) and the API 422s.
+            const tool = urlMode
+                ? tools.find((t) => t.slug === to) ??
+                  tools.find(
+                      (t) =>
+                          (t.accepted_formats?.length ?? 0) === 0 &&
+                          t.output_format?.toLowerCase() === "." + to.replace(/^\./, "").toLowerCase(),
+                  ) ??
+                  tools.find((t) => (t.accepted_formats?.length ?? 0) === 0)
+                : resolveTool(tools, to, inputExt);
             if (!tool) {
                 return text(
                     `I couldn't find a GuruPDF tool to turn ${inputExt || "that input"} into "${to}". ` +

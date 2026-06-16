@@ -80,8 +80,20 @@ export class GuruPdfClient {
 
         if (!res.ok) {
             const err = parsed?.error ?? {};
-            throw new GuruPdfError(err.message ?? `Request failed (HTTP ${res.status})`, {
-                code: err.code ?? `HTTP_${res.status}`,
+            // Laravel validation errors come back as { message, errors: { field: [msg,…] } }
+            // with no `error` wrapper — surface those instead of a bare "HTTP 422".
+            const validation =
+                parsed?.errors && typeof parsed.errors === "object"
+                    ? (Object.values(parsed.errors as Record<string, unknown>).flat() as unknown[]).filter(Boolean)
+                    : [];
+            const message = (
+                err.message ??
+                (validation.length ? validation.join(" ") : undefined) ??
+                parsed?.message ??
+                `Request failed (HTTP ${res.status})`
+            ).replace(/\bfiles\.\d+\b/g, "file");
+            throw new GuruPdfError(message, {
+                code: err.code ?? parsed?.code ?? `HTTP_${res.status}`,
                 status: res.status,
                 meta: parsed?.meta ?? err.meta,
                 retryAfter,
@@ -141,7 +153,7 @@ export class GuruPdfClient {
                 /* ignore */
             }
             const err = parsed?.error ?? {};
-            throw new GuruPdfError(err.message ?? `Download failed (HTTP ${res.status})`, {
+            throw new GuruPdfError(err.message ?? parsed?.message ?? `Download failed (HTTP ${res.status})`, {
                 code: err.code ?? `HTTP_${res.status}`,
                 status: res.status,
                 meta: parsed?.meta,
