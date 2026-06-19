@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/gurupdf-mcp.svg)](https://www.npmjs.com/package/gurupdf-mcp)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/GuruPDF/gurupdf-mcp/blob/main/LICENSE)
+[![gurupdf-mcp MCP server](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp/badges/card.svg)](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp)
+[![gurupdf-mcp MCP server](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp/badges/score.svg)](https://glama.ai/mcp/servers/GuruPDF/gurupdf-mcp)
 
 A free **[Model Context Protocol](https://modelcontextprotocol.io) (MCP) server** that lets Claude, Cursor, VS Code, Windsurf and other AI agents **convert, compress, merge, split and edit PDFs — and convert between 100+ file formats** (Word, Excel, PowerPoint, JPG, PNG, HEIC, ebooks, and more), right on your own machine. Powered by [GuruPDF](https://gurupdf.com).
 
