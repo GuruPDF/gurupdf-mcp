@@ -10,7 +10,7 @@ A free **[Model Context Protocol](https://modelcontextprotocol.io) (MCP) server*
 
 > Ask your assistant: *"compress this PDF"*, *"turn invoice.docx into a PDF"*, or *"merge these three files"* — and it converts the files right on your machine.
 
-- 🗂️ **126 tools** — PDF ⇄ Word/Excel/PowerPoint, images, ebooks, OCR, compress, merge, split, rotate, protect, watermark, and more.
+- 🗂️ **127 tools** — PDF ⇄ Word/Excel/PowerPoint, images, ebooks, OCR, compress, merge, split, rotate, protect, watermark, and more.
 - 💻 **Works on your local files** — reads and writes files on disk, no manual upload/download.
 - 🆓 **Free to start** — every account gets daily credits. No credit card required.
 

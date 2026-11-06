@@ -58,7 +58,7 @@ async function pollUntilDone(uuid: string, timeoutMs = 5 * 60 * 1000): Promise<C
     return (await client!.getConversion(uuid)).data;
 }
 
-const server = new McpServer({ name: "gurupdf", version: "0.1.2" });
+const server = new McpServer({ name: "gurupdf", version: "0.1.4" });
 
 server.tool(
     "convert_file",
